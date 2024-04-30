@@ -7,12 +7,11 @@ main()
 {
 	for(i=0;i<5;i++)
 	{
-	printf("num %d:",i+1);
+	printf("ingrese numero %d: ",i+1);
 	scanf("%d",&nums[i]);
 	}
 	maxmin(&max,&min);
-	printf("Max = %d\n",max);
-	printf("Min = %d\n",min);
+	printf("el numero maximo es %d y el minimo %d\n",max,min);
 }
 
 void maxmin(int *max,int *min)
