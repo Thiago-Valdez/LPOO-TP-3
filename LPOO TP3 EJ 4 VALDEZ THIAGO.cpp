@@ -8,12 +8,12 @@ main()
 {
 	for(i=0;i<5;i++)
 	{
-		printf("num %d:",i+1);
+		printf("ingrese numero %d: ",i+1);
 		scanf("%d",&arr1[i]);
 	}
 	
 	copiar(arr1,arr2);
-	
+	printf ("el array copiado es: ");
 	for(i=0;i<5;i++)
 	{
 		printf("[%d]",arr2[i]);
